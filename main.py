@@ -35,7 +35,7 @@ def Join(x_subject):
             print("This hour is free")
             time.sleep(3300) 
       else:       
-            chromedriver_path ="/home/zeca/Projects/Python/Projects including Virtual enironments/Skippon/chromedriver"
+            chromedriver_path ="[Path to chrome driver]/chromedriver"
 
             opt = Options()
             opt.add_argument("--disable-infobars")
